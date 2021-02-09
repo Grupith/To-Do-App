@@ -47,7 +47,7 @@ input.addEventListener('keypress', function(e) {
     }
 })
 
-// Clear all tasks
 
 // add checkbox to item
-// add x button to delete list item from list 
+// add x button to delete list item from list
+// add quetion mark and make hint animate to appear on hover 

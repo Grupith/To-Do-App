@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-img {
+.backgroundImage {
   position: fixed;
   z-index: -1;
   width: 100%;
@@ -70,4 +70,10 @@ li {
 li::selection {
   color: none;
   background: none;
+}
+
+.githubLogo {
+  margin: 10px;
+  width: 32px;
+  height: 32px;
 }
