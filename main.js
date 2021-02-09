@@ -18,3 +18,21 @@ btn.addEventListener('click', function() {
         ul.removeChild(newItem);
     })
 })
+
+// Create a list item on Enter
+input.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        let newItemOnEnter = document.createElement('li');
+        ul.appendChild(newItemOnEnter);
+        newItemOnEnter.innerText = input.value;
+        input.value = '';
+
+        newItemOnEnter.addEventListener('click', function() {
+            newItemOnEnter.style.backgroundColor = 'green';
+        })
+
+        newItemOnEnter.addEventListener('dblclick', function() {
+            ul.removeChild(newItemOnEnter);
+        })
+    }
+})

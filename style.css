@@ -23,7 +23,13 @@ html {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.3rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-top: 1rem;
 }
 
 input {
