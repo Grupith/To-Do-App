@@ -1,6 +1,8 @@
 let input = document.getElementById('txtInput');
 let btn = document.getElementById('btn');
 let ul = document.getElementById('list');
+let allListItems = document.querySelectorAll('li');
+let clearAllBtn = document.getElementById('clearAllBtn');
 
 // Create a list item on button press
 btn.addEventListener('click', function() {
@@ -15,6 +17,10 @@ btn.addEventListener('click', function() {
     })
     // Delete item from list
     newItem.addEventListener('dblclick', function() {
+        ul.removeChild(newItem);
+    })
+    // Clear all list items on button press
+    clearAllBtn.addEventListener('click', function(){
         ul.removeChild(newItem);
     })
 })
@@ -34,5 +40,14 @@ input.addEventListener('keypress', function(e) {
         newItemOnEnter.addEventListener('dblclick', function() {
             ul.removeChild(newItemOnEnter);
         })
+        // Clear all list items on Enter
+        clearAllBtn.addEventListener('click', function(){
+            ul.removeChild(newItemOnEnter);
+        })
     }
 })
+
+// Clear all tasks
+
+// add checkbox to item
+// add x button to delete list item from list 

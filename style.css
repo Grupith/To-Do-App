@@ -44,6 +44,12 @@ input {
   padding: 1px 5px;
 }
 
+#clearAllBtn {
+  font-size: 1.45rem;
+  font-weight: 500;
+  padding: 1px 5px;
+}
+
 ul {
   margin: 1rem;
   list-style-type: none;
