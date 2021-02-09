@@ -76,4 +76,17 @@ li::selection {
   margin: 10px;
   width: 32px;
   height: 32px;
+  position: absolute;
+}
+
+.githubLogoWhite {
+  margin: 10px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.githubLogoWhite:hover {
+  display: none;
 }
