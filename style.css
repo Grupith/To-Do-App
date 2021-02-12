@@ -76,14 +76,14 @@ li::selection {
   margin: 10px;
   width: 32px;
   height: 32px;
-  position: absolute;
+  position: fixed;
 }
 
 .githubLogoWhite {
   margin: 10px;
   width: 32px;
   height: 32px;
-  position: absolute;
+  position: fixed;
   cursor: pointer;
 }
 
